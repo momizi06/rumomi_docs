@@ -3,7 +3,6 @@ import { h } from 'vue';
 import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme-without-fonts';
 import PostTitle from '../components/PostTitle.vue';
-import { useData } from 'vitepress';
 import './style.css';
 import './custom.css';
 

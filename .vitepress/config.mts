@@ -18,7 +18,7 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: '規約・ガイドライン', link: '/' },
-            { text: '変更履歴', link: 'https://github.com' },
+            { text: '変更履歴', link: 'https://github.com/momizi06/rumomi_docs' },
         ],
 
         sidebar: [
