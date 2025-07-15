@@ -13,6 +13,7 @@ export default defineConfig({
         ['link', { href: 'https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap', rel: 'stylesheet' }],
         ['link', { href: 'https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap', rel: 'stylesheet' }],
     ],
+    lastUpdated: true,
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
@@ -37,6 +38,9 @@ export default defineConfig({
 
         outline: {
             label: '目次',
+        },
+        lastUpdated: {
+            text: '最終更新',
         },
 
         // socialLinks: [

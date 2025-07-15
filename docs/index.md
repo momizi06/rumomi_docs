@@ -1,6 +1,5 @@
 ---
 title: "規約・ガイドライン"
-date: 2025-06-11T19:00:00+09:00
 ---
 
 - [利用規約](tos.md)
@@ -9,3 +8,7 @@ date: 2025-06-11T19:00:00+09:00
 - [NSFWメディアガイドライン](sensitive-media-guidelines.md)
 - [センシティブな文章表現に関するガイドライン](sensitive-text-guidelines.md)
 - [開発者利用規約](dev-tos.md)
+
+::: info
+変更履歴はすべてGitHub上で公開しています。
+:::
