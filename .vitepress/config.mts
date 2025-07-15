@@ -41,6 +41,9 @@ export default defineConfig({
         },
         lastUpdated: {
             text: '最終更新',
+            formatOptions: {
+                dateStyle: 'long',
+            },
         },
 
         // socialLinks: [
