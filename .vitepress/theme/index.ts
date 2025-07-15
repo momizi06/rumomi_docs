@@ -12,10 +12,7 @@ export default {
     Layout: () => {
         return h(DefaultTheme.Layout, null, {
             'doc-before': () => {
-                const { page } = useData();
-                if (page.value.relativePath.match(/^posts\/(?!index.md)/)) {
-                    return h(PostTitle);
-                }
+                return h(PostTitle);
             },
         });
     },
@@ -23,3 +20,4 @@ export default {
         // ...
     },
 } satisfies Theme;
+
